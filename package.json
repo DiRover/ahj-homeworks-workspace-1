@@ -22,7 +22,8 @@
     "webpack": "^4.44.1",
     "webpack-cli": "^3.3.12",
     "webpack-dev-server": "^3.11.0",
-    "webpack-merge": "^5.1.3"
+    "webpack-merge": "^5.1.3",
+    "terser-webpack-plugin": "^4.1.0"
   },
   "scripts": {
     "build": "webpack --config webpack.prod.js",
@@ -32,6 +33,6 @@
     "test": "jest --coverage"
   },
   "dependencies": {
-    "terser-webpack-plugin": "^4.1.0"
+    "core-js": "3"
   }
 }
